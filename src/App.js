@@ -1,12 +1,25 @@
+
 import './App.css';
+
+import Perfil from './Components/Perfil';
+import JsBubble from './Components/JsBubble';
+import Gitbubble from './Components/GitBubble';
+import FigmaBubble from './Components/FigmaBubble';
+import ReactBubble from './Components/ReactIcon';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
+      
+      
+      <JsBubble />
+      <ReactBubble />
+      <Perfil />
+      <Gitbubble />
+      <FigmaBubble />
+      
        
-      </header>
+      
     </div>
   );
 }
